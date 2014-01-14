@@ -1,13 +1,13 @@
 ﻿namespace LemonTest
 {
-    using System;
-    using System.Linq;
     using LemonDefine;
     using LemonDefine.Attribute;
     using LemonDefine.Enum;
     using LemonDefine.Exception;
     using LemonDefine.Interface;
     using LemonDefine.Log;
+    using System;
+    using System.Linq;
 
     /// <summary>
     /// 定义一个Case的实体, 包含运行时及定义信息
@@ -74,7 +74,7 @@
                 testCase.OnEnd();
 
                 if (testCase is IDisposable)
-                    ((IDisposable)testCase).Dispose();      
+                    ((IDisposable)testCase).Dispose();
             }
             catch (TestEnvException ex)
             {

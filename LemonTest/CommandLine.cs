@@ -1,9 +1,9 @@
 ﻿namespace LemonTest
 {
     using LemonDefine.Enum;
-    using System.Collections.Generic;
     using LemonDefine.Interface;
     using System;
+    using System.Collections.Generic;
 
     internal static class CommandLine
     {

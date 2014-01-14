@@ -1,12 +1,12 @@
 ﻿namespace LemonTest
 {
+    using LemonDefine.Attribute;
+    using LemonDefine.Enum;
+    using LemonDefine.Interface;
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection;
-    using LemonDefine.Attribute;
-    using LemonDefine.Enum;
-    using LemonDefine.Interface;
 
     internal class TestProject
     {
@@ -23,9 +23,8 @@
         }
 
         /// <summary>
-        /// 
+        /// Load Test Assembly file, get ITestAssembly Interface
         /// </summary>
-        /// <param name="dllPath"></param>
         private void LoadAssembly(string dllPath)
         {
             asm = Assembly.LoadFrom(dllPath);
@@ -41,10 +40,8 @@
         }
 
         /// <summary>
-        /// 
+        /// 获取Assembly中所有的继承了ITestCase接口的用例
         /// </summary>
-        /// <param name="asmInstans"></param>
-        /// <returns></returns>
         private void GetCasesFromAsm(Assembly asmInstans)
         {
             if (CommandLine.CaseList.Count != 0)
@@ -70,9 +67,8 @@
         }
 
         /// <summary>
-        /// 
+        /// 筛选符合参数指定的优先级的测试用例
         /// </summary>
-        /// <param name="cases"></param>
         private void SelectDefinePlevelCases(ref List<CaseEntity> cases)
         {
             if (CommandLine.PLeave.Count == 0)

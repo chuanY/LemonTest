@@ -1,7 +1,7 @@
 ﻿namespace LemonDefine.Attribute
 {
-    using System;
     using Enum;
+    using System;
 
     [AttributeUsage(AttributeTargets.All, Inherited = true, AllowMultiple = false)]
     public class CasePriorityAttribute : Attribute

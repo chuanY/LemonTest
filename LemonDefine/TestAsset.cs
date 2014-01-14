@@ -1,9 +1,9 @@
 ﻿namespace LemonDefine
 {
+    using Log;
     using System;
     using System.Diagnostics;
     using System.Linq;
-    using Log;
 
     public class TestAsset
     {

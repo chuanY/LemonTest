@@ -1,10 +1,10 @@
 ﻿namespace LemonTest
 {
-    using System;
-    using System.Linq;
     using LemonDefine.Enum;
     using LemonDefine.Exception;
     using LemonDefine.Log;
+    using System;
+    using System.Linq;
 
     internal class LemonMix
     {
@@ -30,23 +30,23 @@
                 TestProject.TestAssmInstance.TestCleanup();
 
             var passed = from t in TestProject.Cases
-                where t.result == CaseResult.Pass
-                select t.CaseType;
+                         where t.result == CaseResult.Pass
+                         select t.CaseType;
             var error = from t in TestProject.Cases
-                where t.result == CaseResult.Error
+                        where t.result == CaseResult.Error
                         select t.CaseType;
             var failed = from t in TestProject.Cases
-                where t.result == CaseResult.Failed
+                         where t.result == CaseResult.Failed
                          select t.CaseType;
             var notrun = from t in TestProject.Cases
-                where t.result == CaseResult.NotRun
+                         where t.result == CaseResult.NotRun
                          select t.CaseType;
 
             TestLog.Instance.Finish(passed.ToList(), error.ToList(), failed.ToList(), notrun.ToList());
         }
 
         /// <summary>
-        /// execute test cases
+        /// 执行所有指定的测试用例
         /// </summary>
         internal void LemonExcute()
         {
@@ -57,7 +57,7 @@
         }
 
         /// <summary>
-        /// init test env
+        /// 初始化测试集环境
         /// </summary>
         /// <returns>Cases List</returns>
         internal void LemonInit(string assName)

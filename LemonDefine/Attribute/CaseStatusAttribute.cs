@@ -1,7 +1,7 @@
 ﻿namespace LemonDefine.Attribute
 {
-    using System;
     using Enum;
+    using System;
 
     public class CaseStatusAttribute : Attribute
     {

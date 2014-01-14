@@ -1,10 +1,10 @@
 ﻿namespace LemonTest
 {
+    using LemonDefine.Enum;
+    using LemonDefine.Log;
     using System;
     using System.Collections.Generic;
     using System.IO;
-    using LemonDefine.Enum;
-    using LemonDefine.Log;
 
     internal class ParseArg
     {
