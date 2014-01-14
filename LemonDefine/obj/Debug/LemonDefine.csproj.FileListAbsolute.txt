@@ -1,0 +1,5 @@
+D:\ServerEngine\test\LemonSrc\LemonBinary\Debug\LemonDefine.dll
+D:\ServerEngine\test\LemonSrc\LemonBinary\Debug\LemonDefine.pdb
+D:\ServerEngine\test\LemonSrc\LemonDefine\obj\Debug\LemonDefine.dll
+D:\ServerEngine\test\LemonSrc\LemonDefine\obj\Debug\LemonDefine.pdb
+D:\ServerEngine\test\LemonSrc\LemonDefine\obj\Debug\LemonDefine.csprojResolveAssemblyReference.cache

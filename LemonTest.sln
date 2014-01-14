@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LemonTest", "LemonTest\LemonTest.csproj", "{8C2A61E8-6EBF-432D-93D7-D5A4AB5618EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LemonDefine", "LemonDefine\LemonDefine.csproj", "{46B0039B-7CE3-4081-98F1-87739A9F7D7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C2A61E8-6EBF-432D-93D7-D5A4AB5618EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2A61E8-6EBF-432D-93D7-D5A4AB5618EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2A61E8-6EBF-432D-93D7-D5A4AB5618EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2A61E8-6EBF-432D-93D7-D5A4AB5618EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B0039B-7CE3-4081-98F1-87739A9F7D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B0039B-7CE3-4081-98F1-87739A9F7D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B0039B-7CE3-4081-98F1-87739A9F7D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B0039B-7CE3-4081-98F1-87739A9F7D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

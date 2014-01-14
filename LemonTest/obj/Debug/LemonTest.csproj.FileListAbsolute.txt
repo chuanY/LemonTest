@@ -1,0 +1,5 @@
+D:\ServerEngine\test\LemonBinary\Debug\LemonTest.exe
+D:\ServerEngine\test\LemonBinary\Debug\LemonTest.pdb
+D:\ServerEngine\test\LemonSrc\LemonTest\obj\Debug\LemonTest.csprojResolveAssemblyReference.cache
+D:\ServerEngine\test\LemonSrc\LemonTest\obj\Debug\LemonTest.exe
+D:\ServerEngine\test\LemonSrc\LemonTest\obj\Debug\LemonTest.pdb
