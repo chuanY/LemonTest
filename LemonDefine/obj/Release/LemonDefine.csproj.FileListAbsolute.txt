@@ -1,4 +1,0 @@
-D:\ServerEngine\test\LemonBinary\Release\LemonDefine.dll
-D:\ServerEngine\test\LemonBinary\Release\LemonDefine.pdb
-D:\ServerEngine\test\LemonSrc\LemonDefine\obj\Release\LemonDefine.dll
-D:\ServerEngine\test\LemonSrc\LemonDefine\obj\Release\LemonDefine.pdb
